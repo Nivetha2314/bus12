@@ -1,0 +1,43 @@
+.hero-container {
+    padding: 50px;
+    background-color: #f8f9fa;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .text-section h1 {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .text-section p {
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .btn-group {
+    margin-top: 20px;
+  }
+  
+  .dots {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .dot.active {
+    background-color: #ff9800;
+  }
